@@ -1,2 +1,2 @@
 # it-step
-https://Big-Aleks.github.io/itstep-cv/cv
+https://big-aleks.github.io/it-step/cv.md
