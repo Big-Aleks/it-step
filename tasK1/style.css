@@ -1,0 +1,105 @@
+body {
+    background-color: #f8f8f8;
+}
+
+ul li a {
+    font-size: 19px;
+    font-family: "Times New Roman", Serif, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    color: brown;
+    list-style-type: none;
+
+
+}
+
+.text {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    margin-left: -15px;
+
+}
+
+ul li {
+    font-size: 19px;
+    font-family: "Times New Roman", Serif;
+    font-style: italic;
+    text-decoration: none;
+    color: brown;
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    background-color: #eaeaea;
+}
+
+p {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+h2 + i {
+    color: darkblue;
+}
+
+p ~ ul li {
+    font-family: "Microsoft JhengHei Light", sans-serif;
+    font-size: 14px;
+    color: darkblue;
+    line-height: 23px;
+    list-style-image: url(picture/r.jpg);
+}
+
+p i {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+input::placeholder{
+    color: blueviolet;
+}
+textarea::placeholder{
+    color: blueviolet;
+}
+
+input{
+
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    height: 20px;
+    width: 300px;
+}
+
+textarea {
+    color: darkblue;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    height: 40px;
+    width: 300px;
+}
+
+p ~ input {
+    height: 30px;
+    width: 70px;
+    color: black;
+    font-size: 10px;
+    font-style: italic;
+    line-height: 12px;
+}
+
+.frame{
+    border: maroon;
+    border-style: inset;
+    border-width: 4px;
+    border-bottom-width: 8px;
+}
