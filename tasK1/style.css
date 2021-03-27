@@ -1,7 +1,9 @@
+/*background*/
 body {
     background-color: #f8f8f8;
 }
-
+/*background*/
+/*Header*/
 ul li a {
     font-size: 19px;
     font-family: "Times New Roman", Serif, sans-serif;
@@ -29,14 +31,16 @@ ul li {
     color: brown;
     list-style-type: none;
 }
-
+/*Header*/
+/*Headlines*/
 h2 {
     font-size: 18px;
     font-weight: 400;
     color: black;
     background-color: #eaeaea;
 }
-
+/*Headlines*/
+/*text*/
 p {
     color: #707070;
     font-size: 14px;
@@ -47,15 +51,6 @@ p {
 h2 + i {
     color: darkblue;
 }
-
-p ~ ul li {
-    font-family: "Microsoft JhengHei Light", sans-serif;
-    font-size: 14px;
-    color: darkblue;
-    line-height: 23px;
-    list-style-image: url(picture/r.jpg);
-}
-
 p i {
     color: #484343;
     font-size: 16px;
@@ -63,15 +58,27 @@ p i {
     line-height: 24px;
     text-align: left;
 }
-input::placeholder{
-    color: blueviolet;
+
+/*text*/
+/* lists*/
+p ~ ul li {
+    font-family: "Microsoft JhengHei Light", sans-serif;
+    font-size: 14px;
+    color: darkblue;
+    line-height: 23px;
+    list-style-image: url(picture/r.jpg);
 }
-textarea::placeholder{
+/* lists*/
+/* contact table*/
+input::placeholder {
     color: blueviolet;
 }
 
-input{
+textarea::placeholder {
+    color: blueviolet;
+}
 
+input {
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
@@ -96,10 +103,12 @@ p ~ input {
     font-style: italic;
     line-height: 12px;
 }
-
-.frame{
+/* contact table*/
+/* picture frame */
+.frame {
     border: maroon;
     border-style: inset;
     border-width: 4px;
     border-bottom-width: 8px;
 }
+/* picture frame */
