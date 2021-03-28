@@ -2,6 +2,7 @@
 body {
     background-color: #f8f8f8;
 }
+
 /*background*/
 /*Header*/
 ul li a {
@@ -12,10 +13,9 @@ ul li a {
     color: brown;
     list-style-type: none;
 
-
 }
 
-.menu {
+.menu-1 {
     font-size: 14px;
     text-decoration: none;
     color: black;
@@ -31,15 +31,22 @@ ul li {
     color: brown;
     list-style-type: none;
 }
+
+.menu-item:hover a{
+    color: blue;
+    font-weight: 700;
+}
+
 /*Header*/
 /* store Name */
- .storeName{
+.storeName {
     font-family: "Times New Roman", Serif, sans-serif;
     font-size: 15px;
     color: black;
     font-style: italic;
     font-weight: 400;
 }
+
 /* store name */
 /*Headlines h2*/
 h2 {
@@ -48,7 +55,8 @@ h2 {
     color: black;
     background-color: #eaeaea;
 }
-/*Headlines*/
+
+/*Headlines h2*/
 /*text*/
 .text {
     color: #707070;
@@ -65,7 +73,8 @@ h2 {
     line-height: 24px;
     text-align: left;
 }
-.textContact-1{
+
+.textContact-1 {
     font-style: italic;
     font-size: 17px;
     font-family: "Times New Roman", Serif, sans-serif;
@@ -73,7 +82,8 @@ h2 {
     line-height: normal;
     color: black;
 }
-.textContact-2{
+
+.textContact-2 {
     font-style: italic;
     font-size: 16px;
     font-family: "Times New Roman", Serif, sans-serif;
@@ -81,9 +91,11 @@ h2 {
     line-height: normal;
     color: black;
 }
-span{
+
+span {
     font-weight: 600;
 }
+
 /*text*/
 /* lists*/
 p ~ ul li {
@@ -93,6 +105,7 @@ p ~ ul li {
     line-height: 23px;
     list-style-image: url(picture/r.jpg);
 }
+
 /* lists*/
 /* contact table*/
 input::placeholder {
@@ -128,6 +141,7 @@ p ~ input {
     font-style: italic;
     line-height: 12px;
 }
+
 /* contact table*/
 /* picture frame */
 .frame {
@@ -136,13 +150,15 @@ p ~ input {
     border-width: 4px;
     border-bottom-width: 8px;
 }
+
 /* picture frame */
 /*Basement*/
-.Basement{
+.Basement {
     font-style: normal;
     font-size: 15px;
     font-weight: 400;
     color: black;
     line-height: normal;
 }
+
 /*Basement*/
