@@ -15,7 +15,7 @@ ul li a {
 
 }
 
-.text {
+.menu {
     font-size: 14px;
     text-decoration: none;
     color: black;
@@ -25,14 +25,23 @@ ul li a {
 
 ul li {
     font-size: 19px;
-    font-family: "Times New Roman", Serif;
+    font-family: "Times New Roman", Serif, sans-serif;
     font-style: italic;
     text-decoration: none;
     color: brown;
     list-style-type: none;
 }
 /*Header*/
-/*Headlines*/
+/* store Name */
+ .storeName{
+    font-family: "Times New Roman", Serif, sans-serif;
+    font-size: 15px;
+    color: black;
+    font-style: italic;
+    font-weight: 400;
+}
+/* store name */
+/*Headlines h2*/
 h2 {
     font-size: 18px;
     font-weight: 400;
@@ -41,24 +50,40 @@ h2 {
 }
 /*Headlines*/
 /*text*/
-p {
+.text {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
+
 }
 
-h2 + i {
-    color: darkblue;
-}
-p i {
+.text1 {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
 }
-
+.textContact-1{
+    font-style: italic;
+    font-size: 17px;
+    font-family: "Times New Roman", Serif, sans-serif;
+    font-weight: 600;
+    line-height: normal;
+    color: black;
+}
+.textContact-2{
+    font-style: italic;
+    font-size: 16px;
+    font-family: "Times New Roman", Serif, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    color: black;
+}
+span{
+    font-weight: 600;
+}
 /*text*/
 /* lists*/
 p ~ ul li {
@@ -112,3 +137,12 @@ p ~ input {
     border-bottom-width: 8px;
 }
 /* picture frame */
+/*Basement*/
+.Basement{
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    line-height: normal;
+}
+/*Basement*/
