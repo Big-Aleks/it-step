@@ -32,8 +32,13 @@ ul li {
     list-style-type: none;
 }
 
-.menu-item:hover a{
-    color: blue;
+.menu-item:hover a {
+    color: black;
+    font-weight: 700;
+}
+
+.menu-item:hover {
+    color: maroon;
     font-weight: 700;
 }
 
@@ -63,7 +68,8 @@ h2 {
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
-
+    width: 34%;
+    text-align: left;
 }
 
 .text1 {
@@ -72,6 +78,7 @@ h2 {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    width: 34%;
 }
 
 .textContact-1 {
@@ -95,6 +102,7 @@ h2 {
 span {
     font-weight: 600;
 }
+
 
 /*text*/
 /* lists*/
