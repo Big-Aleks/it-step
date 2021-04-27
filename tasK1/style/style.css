@@ -1,0 +1,566 @@
+
+.first-main-container {
+    background: url(../picture/main-backgroud/bac.png);
+}
+
+.second-main-container {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    background: #eaeaea;
+}
+
+
+body {
+    background-color: #f8f8f8;
+}
+
+
+.header {
+    height: 130px;
+    width: 100%;
+    background-image: url("https://studio-fartukov.ru/wp-content/uploads/2018/04/2967.jpg");
+    background-size: 100% 130px;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 0 0 10px 5px black;
+}
+.logo__box{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo__img {
+    display: block;
+    background-image: url(../picture/log/logo1.jpg);
+    width: 25%;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -15px;
+
+}
+.menu-shop {
+    font-size: 19px;
+    text-decoration: none;
+    color: blueviolet;
+    font-style: italic;
+
+}
+.menu__box{
+
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.menu-item {
+    margin: 0%;
+    padding: 0%;
+    font-size: 19px;
+    font-family: "Times New Roman", Serif, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    color: #707070;
+    list-style-type: none;
+
+
+    height: 50px;
+    width: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+.menu-li {
+
+    height: 50px;
+    width: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-link {
+    font-size: 19px;
+    font-family: "Times New Roman", Serif, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    color: brown;
+    list-style-type: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    height: 50px;
+    width: 200px;
+}
+
+
+.menu-item:hover a {
+    color: black;
+    font-weight: 500;
+}
+
+.menu-item:hover {
+    color: #707070;
+    font-weight: 500;
+}
+
+
+
+
+
+.box-catalog-sheet-1-photo {
+    border: 1px solid #000;
+    width:20% ;
+    height: 200px;
+    background-image: url(../picture/flowrs/flowers1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-catalog-sheet-1-product {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.h3-catalog-sheet-1 {
+    width: 77.6%;
+    height: 20px;
+    font-style: italic;
+    background-color: lightgray;
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    margin: 0 0;
+}
+.p-catalog-sheet-1-text{
+    width: 77.6%;
+    height: 40px;
+    font-size: 14px;
+    font-family: "Times New Roman", Serif, sans-serif;
+    font-style: italic;
+    position: absolute;
+    top: 20px;
+    left: 210px;
+}
+.p-catalog-sheet-1-text:first-letter{
+    font-family: "Leelawadee UI Semilight", cursive;
+    color: blueviolet;
+}
+.box-catalog-sheet-1-button{
+    display: block;
+    position: absolute;
+    bottom: 80px;
+    right: 0px;
+}
+.box-catalog-sheet-1-button_inputButton{
+    width: 90px;
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.box-catalog-sheet-1-button_inputButton:focus{
+    outline:none;
+}
+
+
+
+.box-catalog-sheet-2-photo {
+    border: 1px solid #000;
+    width:20% ;
+    height: 200px;
+    background-image: url(../picture/flowrs/flowers2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-catalog-sheet-2-product {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.h3-catalog-sheet-2 {
+    width: 77.6%;
+    height: 20px;
+    font-style: italic;
+    background-color: lightgray;
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    margin: 0 0;
+}
+.p-catalog-sheet-2-text{
+    width: 77.6%;
+    height: 40px;
+    font-size: 14px;
+    font-family: "Times New Roman", Serif, sans-serif;
+    font-style: italic;
+    position: absolute;
+    top: 20px;
+    left: 210px;
+}
+.p-catalog-sheet-2-text:first-letter{
+    font-family: "Leelawadee UI Semilight", cursive;
+    color: blueviolet;
+}
+.box-catalog-sheet-2-button{
+    display: block;
+    position: absolute;
+    bottom: 80px;
+    right: 0px;
+}
+.box-catalog-sheet-2-button_inputButton{
+    width: 90px;
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.box-catalog-sheet-2-button_inputButton:focus{
+    outline:none;
+}
+
+
+
+
+.box-catalog-sheet-3-photo {
+    border: 1px solid #000;
+    width:20% ;
+    height: 200px;
+    background-image: url(../picture/flowrs/flowers3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-catalog-sheet-3-product {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.h3-catalog-sheet-3 {
+    width: 77.6%;
+    height: 20px;
+    font-style: italic;
+    background-color: lightgray;
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    margin: 0 0;
+}
+.p-catalog-sheet-3-text{
+    width: 77.6%;
+    height: 40px;
+    font-size: 14px;
+    font-family: "Times New Roman", Serif, sans-serif;
+    font-style: italic;
+    position: absolute;
+    top: 20px;
+    left: 210px;
+}
+.p-catalog-sheet-3-text:first-letter{
+    font-family: "Leelawadee UI Semilight", cursive;
+    color: blueviolet;
+}
+.box-catalog-sheet-3-button{
+    display: block;
+    position: absolute;
+    bottom: 80px;
+    right: 0px;
+}
+.box-catalog-sheet-3-button_inputButton{
+    width: 90px;
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.box-catalog-sheet-3-button_inputButton:focus{
+    outline:none;
+}
+
+
+
+
+
+.container-index {
+    width: 98%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container-index_h1 {
+    font-style: italic;
+}
+
+.container-index_text {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    font-style: unset;
+}
+
+
+.catalog {
+    font-style: italic;
+}
+
+.catalog_container {
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.catalog-box1 {
+    width: 25%;
+    height: 250px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.catalog-box1_photo {
+    width: 60%;
+    height: 150px;
+    background-image: url(../picture/flowrs/flowers1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.catalog-box2 {
+
+    width: 25%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.catalog-box2_photo {
+    width: 60%;
+    height: 150px;
+    background-image: url(../picture/flowrs/flowers2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.catalog-box3 {
+
+    width: 25%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.catalog-box3_photo {
+    width: 60%;
+    height: 150px;
+    background-image: url(../picture/flowrs/flowers3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.container {
+    width: 1100px;
+    height: 250px;
+    border: 1px solid #000;
+    margin: 10px auto;
+
+}
+
+
+
+.text-catalog {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    width: 34%;
+    text-align: left;
+}
+
+.text-catalog-long {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 34%;
+}
+
+.text-catalog-long:first-letter {
+    font-family: "Leelawadee UI Semilight", cursive;
+    color: blueviolet;
+}
+
+.text-contact-1 {
+    font-style: italic;
+    font-size: 17px;
+    font-family: "Times New Roman", Serif, sans-serif;
+    font-weight: 600;
+    line-height: normal;
+    color: black;
+}
+
+.text-contact-2 {
+    font-style: italic;
+    font-size: 16px;
+    font-family: "Times New Roman", Serif, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    color: black;
+}
+
+.sheet-3-span-text {
+    font-weight: 600;
+}
+
+ .table-thing {
+    font-family: "Microsoft JhengHei Light", sans-serif;
+    font-size: 14px;
+    color: darkblue;
+    line-height: 23px;
+    list-style-image: url(../picture/small/r.jpg);
+}
+
+
+
+.table {
+    border: 1px solid #484343;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #484343;
+    padding: 5px;
+    vertical-align: center;
+}
+
+
+.table-td-1 {
+    height: 40px;
+    background-color: blueviolet;
+}
+
+.table-td-2 {
+    background-color: darkorange;
+}
+
+.table-td-3 {
+    background-color: darkgray;
+}
+
+
+.inputContact::placeholder {
+    color: blueviolet;
+}
+
+.inputContact-email::placeholder {
+    color: blueviolet;
+}
+
+textarea::placeholder {
+    color: blueviolet;
+}
+
+
+.inputContact-email:focus {
+    color: #f8f8f8;
+    background-color: #707070;
+}
+
+
+.inputContact-email {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    height: 20px;
+    width: 300px;
+    color: #484343;
+}
+
+
+.inputContact {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    height: 20px;
+    width: 300px;
+    color: #484343;
+    text-transform: capitalize;
+}
+
+
+textarea {
+    color: darkblue;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    height: 40px;
+    width: 300px;
+    text-transform: capitalize;
+}
+
+.inputButton {
+    height: 30px;
+    width: 70px;
+    color: black;
+    font-size: 10px;
+    font-style: italic;
+    line-height: 12px;
+}
+
+
+
+.footer {
+    background-color: lightsteelblue;
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 10px auto;
+}
+
+.basement {
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    line-height: normal;
+    text-align: center;
+}
+
+.map{
+    width: 100%;
+    height: 374px;
+}
+

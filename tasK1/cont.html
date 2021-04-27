@@ -1,58 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style/style.normalize.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
-<div class="header">
 
-    <a href="index.html"> <img class="logo" src="picture/log/logo.jpg" alt="фото"></a>
+<div class="first-main-container">
+    <div class="second-main-container">
+        <body>
 
-    <span class="menu-shop"> My shoP</span>
+        <div class="header">
 
-    <ul class="menu-item">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="flowers1.html">Каталог</a></li>
-        <li>Контакты</li>
-    </ul>
-    <p class="storeName">&#10048; Рады что вы с нами !!!&#10048;</p>
+            <div class="logo__box">
+
+                <a href="index.html" class="logo__img"></a>
+
+                <p class="menu-shop"> My shoP</p>
+            </div>
+            <div class="menu__box">
+                <ul class="menu-item">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="cont.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="line">
+
+        <form action="#">
+            <fieldset>
+                <legend>Напишити нам</legend>
+                <br>
+                <input class="inputContact" type="text" placeholder="name:">
+                <br>
+                <br>
+                <input class="inputContact-email" type="email" placeholder="email:">
+                <br>
+                <br>
+                <input class="inputContact" type="text" placeholder="tema:">
+                <br>
+                <br>
+                <textarea name="comment" placeholder="ваши комментариий,отзывы тут:" cols="40"
+                          rows="3"></textarea>
+                <p></p>
+                <input class="inputButton" type="submit" value="Отправить">
+                <input class="inputButton" type="reset" value="Очистить">
+            </fieldset>
+        </form>
+        <p class="textContact-1"> &#10048;fragrant_fl0wers&#10048; &quot;наши контакты:&quot;</p>
+        <p class="textContact-2"> &#9990; +375445054686.</p>
+        <p class="textContact-2"> &#9873; г. Могилёв.</p>
+        <p class="textContact-2"> &#9993; xemere87@mail.ru</p>
+        <p class="textContact-2"> &#9998; принимаем заказы круглосуточно.</p>
+        <a href="https://www.instagram.com/fragrant_fl0wers/" target="_blank"><img
+                src="https://antal.com.ua/wp-content/uploads/2020/01/Logotip-instagram-t.png" width="30">
+        </a><br>
+        <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2347.88469316094!2d30.357103315410864!3d53.951555836907346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d04e5632c16c0f%3A0xb10bc3916e87ee32!2z0YPQu9C40YbQsCDQmtGA0YPQv9GB0LrQvtC5IDE4Miwg0JzQvtCz0LjQu9GR0LI!5e0!3m2!1sru!2sby!4v1616427668369!5m2!1sru!2sby"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+        <hr class="line">
+        <div class="footer">
+            <p class="basement">&copy; Все права защищены</p>
+        </div>
+        </body>
+    </div>
 </div>
-<hr class="line">
-<form action="#">
-    <fieldset>
-        <legend>Напишити нам</legend>
-        <br>
-        <input class="inputContact" type="text" placeholder="name:">
-        <br>
-        <br>
-        <input class="inputContact-email" type="email" placeholder="email:">
-        <br>
-        <br>
-        <input class="inputContact" type="text" placeholder="tema:">
-        <br>
-        <br>
-        <textarea name="comment" placeholder="ваши комментариий,отзывы тут:" cols="40" rows="3"></textarea>
-        <p></p>
-        <input class="inputButton" type="submit" value="Отправить">
-        <input class="inputButton" type="reset" value="Очистить">
-    </fieldset>
-</form>
-<p class="textContact-1"> &#10048;fragrant_fl0wers&#10048; &quot;наши контакты:&quot;</p>
-<p class="textContact-2"> &#9990; +375445054686.</p>
-<p class="textContact-2"> &#9873; г. Могилёв.</p>
-<p class="textContact-2"> &#9993; xemere87@mail.ru</p>
-<p class="textContact-2"> &#9998; принимаем заказы круглосуточно.</p>
-<a href="https://www.instagram.com/fragrant_fl0wers/" target="_blank"><img
-        src="https://antal.com.ua/wp-content/uploads/2020/01/Logotip-instagram-t.png" width="30"> </a><br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2347.88469316094!2d30.357103315410864!3d53.951555836907346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d04e5632c16c0f%3A0xb10bc3916e87ee32!2z0YPQu9C40YbQsCDQmtGA0YPQv9GB0LrQvtC5IDE4Miwg0JzQvtCz0LjQu9GR0LI!5e0!3m2!1sru!2sby!4v1616427668369!5m2!1sru!2sby"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 
-<hr class="line">
-<div class="footer">
-    <p class="basement">&copy; Все права защищены</p>
-</div>
-</body>
 </html>
